@@ -60,8 +60,8 @@ import unicodedata
 import xml.etree.ElementTree as ET
 
 # --- CONFIGURACIÓN ---
-TELEGRAM_TOKEN = "8632334351:AAF1BBf1kDkiDDNRQheahtmXZEYkfYBighI"
-TELEGRAM_CHAT_ID = "-1003700510725"         
+TELEGRAM_TOKEN = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+TELEGRAM_CHAT_ID = "-100XXXXXXXXX"         
 MESHTASTIC_CONNECTION_TYPE = "serial"                        
 MESHTASTIC_IP = "192.168.0.134"                         
 MESHTASTIC_PORT = "/dev/ttyUSB0"                     
