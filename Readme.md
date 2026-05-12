@@ -23,7 +23,7 @@ sudo apt update && sudo apt install python3 python3-pip python3-venv git -y
 mkdir -p /opt/meshbridge
 cd /opt/meshbridge
 # Clona el repositorio
-git clone https://github.com/TU_USUARIO/TU_REPOSITORIO.git .
+git clone https://github.com/olivercabello/botmesh.git .
 
 # Crear el entorno virtual e instalar librerías
 python3 -m venv venv
