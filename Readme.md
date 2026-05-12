@@ -60,7 +60,7 @@ Environment="MESHTASTIC_IP=192.168.0.XXX"
 # Canal de envío (0=LongFast, 1=Canal 1, etc.)
 Environment="SEND_CHANNEL_INDEX=1"
 
-# Configuración MQTT (Solo si vas a usar Home Assistant)
+# Configuración MQTT (Solo si vas a usar un Broker o Home Assistant), no olvides activar "ENABLE_MQTT=True" si quieres usarlo
 Environment="ENABLE_MQTT=False"
 Environment="MQTT_BROKER=192.168.0.XXX"
 Environment="MQTT_USER=tu_usuario"
