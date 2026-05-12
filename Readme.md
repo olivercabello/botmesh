@@ -89,8 +89,8 @@ journalctl -u meshtastic-bridge -f
 ```
 ## 🗒️ Notas: 
 - Si necesitas reiniciar el nodo, se recomienda reiniciar el servicio. 
-- Posteriormente confirma que conecta correctamente monitorizando el bot según paso 5
-- El bot recibe todos los mensajes que de los canales que tenga configurados incluídos los DM. En cada mensaje que reciba el bot los identifica el bot mediante canal o DM en su caso con la descripción del nodo
-- El nodo siempre devuelve mensaje por un único canal que deberás configurar la variable SEND_CHANNEL_INDEX, recuerda que 0 es siempre el canal primario o Longfast
-- Si quieres que se envíe mensajería a Home Assistant configura la información del broker con la IP, usuario y contraseña de HA
-- Si quieres que el bot envíe la mensajes a la meshtastic mediante MQTT configura adecuadmente tu nodo según las indicaciones del grupo Meshtastic España
+- Posteriormente confirma que conecta correctamente monitorizando el bot según paso 5.
+- El bot recibe todos los mensajes que reciba de los canales que tenga configurados incluídos los DM. En cada mensaje que reciba el bot los identifica mediante canal o DM en su caso con la descripción del nodo emisor.
+- El nodo siempre devuelve mensaje por un único canal que deberás configurar en la variable SEND_CHANNEL_INDEX, recuerda que 0 es siempre el canal primario o Longfast. El mensaje se devuelve con el nombre de usuario de telegram seguido del contenido del mensaje.
+- Si quieres que se envíe mensajería a Home Assistant configura la información del broker con la IP, usuario y contraseña de HA.
+- Si quieres que el bot envíe la mensajes a la meshtastic mediante MQTT configura adecuadmente tu nodo según las indicaciones del grupo Meshtastic España.
